@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+ul {
+    align-items: center;
+    list-style: none;
+    color: cyan;
+    font-size: 25px;
+}
+.fade {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+    top: 40%;
+    transition: all 300ms ease;
+}
+.figure1 {
+    background: #000;
+    left: 100px;
+}
+.figure2 {
+    background: red;
+    left: 200px;
+}
+.figure3 {
+    background: green;
+    left: 300px;
+}
+.figure4 {
+    background: yellow;
+    left: 400px;
+}
+.figure5 {
+    background: blue;
+    left: 500px;
+}
+.figure6 {
+    background: orange;
+    left: 600px;
+}
+.imVisible {
+    transform: scale(1.2);
+    opacity: 0;
+    z-index: 100;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .fade {
+        position: static;
+        margin: 10px;
+    }
+    .figure1,
+    .figure2,
+    .figure3,
+    .figure4,
+    .figure5,
+    .figure6 {
+        left: auto;
+    }
+}

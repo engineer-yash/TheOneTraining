@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 Javascript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<h5 class="text-center text-danger pt-3">Task 1- Write a JavaScript program that adds a key down event listener to a
+    text
+    input to detect when the "Enter key" is pressed.</h5>
+<form class="container pt-2">
+    <label for="name">Alert when Enter is pressed</label>
+    <input type="text" id="name" class="form-control" placeholder="Shows an alert when Enter is Pressed">
+</form>
+
+<div class="container pt-3">
+    <h5 class="text-center text-danger pt-3">Task 2- Write a JavaScript program to create a slideshow that changes the
+        displayed image when a next or previous button is clicked.</h5>
+    <div class="slider">
+        <div class="slides">
+            <div class="frame d-flex">
+                <button class="btn btn-primary prev">Prev</button>
+                <ul>
+                    <li class="slide active"><img alt="image1" src="Images/image1.jpg"></li>
+                    <li class="slide"><img alt="image2" src="Images/image2.jpg"></li>
+                    <li class="slide"><img alt="image3" src="Images/image3.jpg"></li>
+                </ul>
+                <button class="btn btn-primary next">Next</button>
+            </div>
+
+        </div>
+    </div>
+    <h5 class="text-center text-danger pt-3">Task 3- Write a JavaScript program to get the window width and height (any
+        time the window is resized).</h5>
+    <div>
+        <h1 class="text-center">Width: <span id="width"></span></h1>
+    </div>
+    <div>
+        <h1 class="text-center">Height: <span id="height"></span></h1>
+    </div>
+    <h5 class="text-center text-danger pt-3">Task 4- Generating numbers and marking evens, odds and prime numbers with
+        three different
+        colors. See the image below. You must take user input and generate block of that range
+        starting from 0.</h5>
+    <div class="container search pt-4">
+        <div class="d-flex">
+            <input class="form-control mr-4" placeholder="Enter Numbers (Limit = 100)" type="numbers" id="inputNumber"
+                required onkeypress="return /[0-9]/i.test(event.key)">
+            <button id="submit" onclick="addBlocks()" class="btn btn-success">Generate Numbers</button>
+        </div>
+        <div class="container pt-5 blocks-container">
+            <div id="container" class="row">
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                Even: <div class="even"></div>
+                Odd: <div class="odd"></div>
+                Prime: <div class="prime"></div>
+            </div>
+        </div>
+    </div>
+
+    <h5 class="text-center text-danger pt-3">Extra Task</h5>
+    <div class="container gen-questions mb-5 pb-5">
+        <h1 class="header-text">General Questions</h1>
+        <div class="cards">
+            <div class="card-title mb-2">
+                Do You Accept All Major Credits Cards?
+                <i class="toggle-icon icon-plus fa-regular fa-square-plus mr-4"></i>
+
+                <div class="card-text-one">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem facere, earum eos nobis qui
+                        maiores veniam vitae aliquam dicta molestiae facilis, nesciunt amet laborum dignissimos animi
+                        harum?
+                        Explicabo, expedita?</p>
+                </div>
+            </div>
+            <div class="card-title mb-2">
+                Do You Accept All Major Credits Cards?
+                <i class="toggle-icon icon-plus fa-regular fa-square-plus mr-4"></i>
+
+                <div class="card-text-one">
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequatur expedita ea
+                        commodi
+                        nemo, fuga neque cum quo, ex, aut quod fugit magni aspernatur illum incidunt assumenda cumque
+                        saepe
+                        ab.</p>
+                </div>
+            </div>
+            <div class="card-title mb-2">
+                Do You Accept All Major Credits Cards?
+                <i class="toggle-icon icon-plus fa-regular fa-square-plus mr-4"></i>
+
+                <div class="card-text-one">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum sunt reprehenderit
+                        temporibus quisquam nisi voluptates! Ad sapiente voluptatem, odio quo atque animi accusamus,
+                        sit, a
+                        hic dolorum quidem quasi.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<body>
+    <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d07270b209.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+}
+.title{
+    font-weight: 800;
+}
+.input-group-text{
+    border-right: 0;
+    padding-right: 0;
+}
+.form-control{
+    border-left: 0;
+}
+.text-end{
+    color: rgba(53,179,115,255);
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn{
+    background-color: rgba(53,179,115,255);
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+    margin:20px auto;
+    text-align: center;
+  }
+.hr-lines::before{
+    content:" ";
+    height: 2px;
+    width: 45%;
+    background: #dee2e6;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.hr-lines::after{
+    content:" ";
+    height: 2px;
+    width: 45%;
+    background: #dee2e6;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.google{
+    background-color: transparent;
+    border-color: #dee2e6;
+    font-weight: 700;
+    text-align: center;
+}
+.container{
+    max-width: 500px;
+}
+.container .terms{
+    max-width: 250px;
+}

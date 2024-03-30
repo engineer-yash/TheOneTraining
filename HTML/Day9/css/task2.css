@@ -1,0 +1,23 @@
+.image img{
+    height: 857px;
+    filter: brightness(0.5);
+ 
+}
+
+.carousel-caption{
+    right: 43%;
+    left: 13%;
+    text-align: left;
+    top: 17%;
+
+}
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 35px;
+}
+
+.contrast{
+     filter: saturate(3);
+}

@@ -1,0 +1,29 @@
+
+body{
+    font-size: 20px;
+}
+
+.cyan{
+    background-color: rgb(77, 197, 157);
+}
+.blue{
+    background-color: rgb(0, 140, 255);
+}
+.col-8,.col-4,.col-6,.col-3{
+    border: white solid 5px;
+    border-right: white solid 1px;
+    line-height: 100px;
+}
+.block-3-down{
+    border-bottom: none;
+}
+
+.block-3-up{
+    border-top: none;
+}
+.block-6-down{
+    border-bottom: none;
+}
+.block-6-up{
+    border-top: none;
+}

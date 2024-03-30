@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Day 10 Task 1 Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://kit.fontawesome.com/d07270b209.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container width my-5 px-5">
+        <form class="form-control form-control-sm px-3">
+            <h5 class="pt-3 title">Welcome to Campaign</h5>
+            <p>Get Started</p>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-user"></i></span>
+                <input type="text" class="form-control" id="userName" placeholder="User name" required>
+            </div>
+            <small id="user-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <small id="email-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+            </div>
+            <small id="password-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm" required>
+            </div>
+            <small id="confirm-password-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-clipboard"></i></span>
+                <input type="text" class="form-control" id="oneliner" placeholder="An one liner about yourself"
+                    required>
+            </div>
+            <small id="oneliner-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-user"></i></span>
+                <input type="text" class="form-control" id="first-name" placeholder="First name" required>
+            </div>
+            <small id="first-name-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-user"></i></span>
+                <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
+            </div>
+            <small id="last-name-error" class="form-text text-danger">
+            </small>
+            <div class="input-group py-2">
+                <span class="input-group-text bg-white"><i class="fa-solid fa-user"></i></span>
+                <textarea id="about" class="form-control" placeholder="About yourself" required></textarea>
+            </div>
+            <small id="about-error" class="form-text text-danger">
+            </small>
+            <h5 class="mt-3 mb-4">What is Your Favourite fruit?</h5>
+            <div class="row">
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="radio" name="fruits" value="apple" id="apple" required>
+                    <label class="form-check-label" for="apple">
+                        Apple
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="radio" name="fruits" value="orange" id="orange" required>
+                    <label class="form-check-label" for="orange">
+                        Orange
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="radio" name="fruits" value="strawberry" id="strawberry"
+                        required>
+                    <label class="form-check-label" for="strawberry">
+                        Strawberry
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="radio" name="fruits" value="banana" id="banana" required>
+                    <label class="form-check-label" for="banana">
+                        Banana
+                    </label>
+                </div>
+                <small id="radio-error" class="form-text text-danger">
+                </small>
+            </div>
+            <h5 class="mt-4">Which movies do you like?</h5>
+            <p>Select all of them because it is tough for you...</p>
+            <div class="row">
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="checkbox" value="3-Idiots" id="3-idiots">
+                    <label class="form-check-label" for="defaultCheck1">
+                        3 Idiots
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="checkbox" value="KGF" id="kgf">
+                    <label class="form-check-label" for="defaultCheck1">
+                        KGF
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="checkbox" value="Bahubali" id="bahubali">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Bahubali
+                    </label>
+                </div>
+                <div class="col-3 form-check mx-5">
+                    <input class="form-check-input" type="checkbox" value="Dangal" id="dangal">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Dangal
+                    </label>
+                </div>
+                <small id="checkbox-error" class="form-text text-danger">
+                </small>
+                <h5 class="mt-4">Please rate our website</h5>
+
+                <h6 class="mt-3 mb-3">Design</h6>
+                <div class="d-flex flex-wrap d-star">
+                    <div class="mx-3">Worst</div>
+                    <i class="fa-regular mx-1 fa-star" id="d1"></i>
+                    <i class="fa-regular mx-1 fa-star" id="d2"></i>
+                    <i class="fa-regular mx-1 fa-star" id="d3"></i>
+                    <i class="fa-regular mx-1 fa-star" id="d4"></i>
+                    <i class="fa-regular mx-1 fa-star" id="d5"></i>
+                    <div class="mx-3">Best</div>
+                </div>
+                <small id="design-output" class="form-text text-danger mb-4"></small>
+                <hr />
+                <h6 class=" mb-3">Information</h6>
+                <div class="d-flex flex-wrap i-star">
+                    <div class="mx-3">Worst</div>
+                    <i class="fa-regular mx-1 fa-star" id="i1"></i>
+                    <i class="fa-regular mx-1 fa-star" id="i2"></i>
+                    <i class="fa-regular mx-1 fa-star" id="i3"></i>
+                    <i class="fa-regular mx-1 fa-star" id="i4"></i>
+                    <i class="fa-regular mx-1 fa-star" id="i5"></i>
+                    <div class="mx-3">Best</div>
+                </div>
+                <small id="info-output" class="form-text text-danger"></small>
+                <button id="submitBtn" class="btn btn-success border-0 mt-3">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container  my-5 px-5">
+        <h5 class="pt-3 title">All data goes here as output</h5>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="table-responsive card bg-success">
+                    <table class="table table-bordered table-hover table-striped" id="table">
+                        <thead>
+                            <tr>
+                                <th>User Name</th>
+                                <th>Email</th>
+                                <th>One Liner</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>About</th>
+                                <th>Favourite Fruit</th>
+                                <th>Movies</th>
+                                <th>Design</th>
+                                <th>Information</th>
+                            </tr>
+                        </thead>
+                        <tbody id="output">
+                            <tr>
+                                <td colspan="10" class="text-center" id="no-data">---------  No Data  ---------</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="pagination" class="text-center"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

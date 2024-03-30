@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(0,123,94,255);
+}
+
+
+.nav-link{
+    width: 25%;
+    color: white;
+    
+}
+.nav-tabs{
+    --bs-nav-tabs-link-active-color: rgba(0,123,94,255);
+    font-size: 18px;
+    font-weight: 500;
+}

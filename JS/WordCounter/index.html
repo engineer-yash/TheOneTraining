@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <div class="col">
+        <h2>Counters - by <strong>Yash Gohel</strong></h2>
+        <div class="row">
+          <textarea placeholder="Enter Some Text Here...." id="countme" rows="4" oninput="updateCount();"></textarea>
+        </div>
+        <div class="row items my-4">
+            <h3>Actions:</h3>
+            <div class="col-9">
+                <button id="upper" title="All letters will be Capitalize" class="btn btn-primary">UPPER CASE</button>
+                <button id="lower" title="All Letters will be Small" class="btn btn-primary">lower case</button>
+                <button id="sentence" title="Capitalize First Letter on every Sentence ending with FullStop (.)" onclick="sentenceCase(); return false;" class="btn btn-primary">Sentence case</button>
+                <button id="title" title="Only First Letter Capitalized rest will be small" class="btn btn-primary">Title case</button>
+                <button id="reset" title="Reset the TextArea" class="btn btn-danger">Reset</button>
+                <button id="reset" title="Copy of your text in Clipboard" onclick="copyText(); return false;" class="btn btn-secondary">Copy Text</button>
+        </div>
+    </div>
+        <div class="col">
+      <!--<button id="letterCount" >0</button>
+          <button id="wordCount">0</button> -->
+          <div class="row"><span>Word</span><span id="wordCount">0</span></div>
+          <div class="row"><span>Letter</span><span id="letterCount">0</span></div>
+          <div class="row"><span>Capital Letter</span><span id="capitalCount">0</span></div>
+          <div class="row"><span>Small Letter</span><span id="smallCount">0</span></div>
+          <div class="row"><span>Puctuations</span><span id="punctuationCount">0</span></div>
+          <div class="row"><span>Special</span><span id="specialCount">0</span></div>
+          <div class="row"><span>Number</span><span id="numberCount">0</span></div>
+          <div class="row"><span>Total</span><span id="totalCount">0</span></div>
+        </div>
+      </div>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.main{
+    margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #0092ff;;
+      padding: 200px;
+    }
+    .container{
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    .form-control{
+        background-color: rgb(212, 230, 230);
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 25px;
+    }
+    .submit-btn{
+        background-color: rgb(64 165 255);;
+    }

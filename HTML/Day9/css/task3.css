@@ -1,0 +1,34 @@
+nav{
+    padding: 0 20% !important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+li{
+    padding: 0 15px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color: rgba(10,168,224,255);
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: rgba(10,168,224,255);
+   font-weight: 700;
+}
+img{
+    padding-right: 5px;
+}
+.btn-outline-primary{
+    color: rgba(10,168,224,255);
+    border-color: rgba(10,168,224,255);
+}
+
+.btn-primary{
+    background-color: rgba(10,168,224,255);
+    border:0;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(10,168,224,255);
+}

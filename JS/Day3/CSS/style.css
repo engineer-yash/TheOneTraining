@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 50%;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blockSize {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.even {
+    padding: 0 30px;
+    color: white;
+    background-color: rgb(23, 127, 0);
+    margin: 2px 2px;
+    font-size: 25px;
+}
+
+.odd {
+    padding: 0 30px;
+    color: white;
+    background-color: rgb(158, 158, 2);
+    margin: 2px 2px;
+    font-size: 25px;
+}
+
+.prime {
+    padding: 0 30px;
+    color: white;
+    background-color: brown;
+    margin: 2px 2px;
+    font-size: 25px;
+}
+.header-text{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(177, 106, 19);
+    text-align: center;
+    margin: 20px 0;
+}
+.gen-questions{
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 15px;
+    background-color: rgba(207, 201, 201, 0.443);
+}
+.card-title{
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 20%;
+    position: relative;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.card-title p{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.icon-plus{
+    float: right;
+    font-size: 20px;
+    color: rgb(177, 106, 19);
+    cursor: pointer;
+}
+.icon-minus{
+    display: none;
+    float: right;
+    font-size: 20px;
+    color: rgb(177, 106, 19);
+    cursor: pointer;
+}
+.card-text-one{
+    display: none;
+}
+.active{
+    display: block;
+}

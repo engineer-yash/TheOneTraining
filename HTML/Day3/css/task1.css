@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+.main {
+    background: white;
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 64px);
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main .container {
+
+    max-width: 400px;
+    background: white;
+    box-sizing: border-box;
+    padding: 3rem;
+    width: 100%;
+
+}
+
+.google button {
+    text-align: center;
+    border: 2px solid #00000026;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line::before {
+    content: "";
+    width: 20%;
+    border: 1px solid rgb(145, 145, 145);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+.line::after {
+    content: "";
+    width: 20%;
+    border: 1px solid rgb(145, 145, 145);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 15px;
+
+}
+
+.line {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(145, 145, 145);
+}
+
+label {
+    width: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.form-group {
+    border: 2px solid #00000026;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control img {
+    top: 46%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    position: absolute;
+}
+.float{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.checkbox{
+    float:left;
+}
+.forgot{
+    float:right;
+    box-sizing: border-box;
+}
+.btn{
+    border: 2px solid #00000026;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(68, 68, 249);
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    padding-top: 8px;
+}
+img{
+    padding-left: 2px;
+}

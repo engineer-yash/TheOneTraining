@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+    color: blue;
+}
+
+.container>.row{
+    border: 6px solid blue;
+}
+.large-box{
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid blue;
+}
+
+.small-box{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid blue;
+}

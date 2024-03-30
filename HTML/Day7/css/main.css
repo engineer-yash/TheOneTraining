@@ -1,0 +1,517 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.h-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.h-text{
+    overflow: hidden;
+}
+.h-text,.shop-now h4{
+    animation:h4-text 2s;
+}
+@keyframes h4-text{
+    from{
+        margin-left: 30%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.h-text h1{
+    animation: h1-text 2s;
+}
+
+@keyframes h1-text{
+    from{
+        margin-top:30%;
+
+    }
+    to{
+        margin-top:0%;
+    }
+}
+
+.h-text p{
+    animation: p-text 2s;
+}
+@keyframes p-text{
+    from{
+        margin-left: -100%;    
+    }
+}
+
+
+.box-timing .box:hover,.socials li:hover,.client-img:hover{
+    transform: scale(1.1);
+}
+.box-timing .box:hover,.socials li:hover,.client-img{
+    transition: transform 0.5;
+}
+.navigation ul,
+.menus ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h-container li {
+    margin: 0 10px;
+}
+
+.h-container li:hover {
+    color: rgb(49,140,176);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation .active {
+    color: rgb(49,140,176);
+}
+
+.search {
+    background: rgba(0, 0, 0, 0.56);
+    font-size: 13px;
+    height: 60px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+    display: none;
+    color: white;
+    width: 400%;
+}
+
+.search-hover {
+    position: relative;
+}
+
+.search-hover:hover .search {
+    display: block;
+}
+
+/* Content */
+
+.banner {
+
+    background-image: url(/HTML/Day7/images/banner.png);
+    padding: 250px;
+    background-repeat: no-repeat;
+}
+
+.shop-now {
+    padding: 0.8% 2.5%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    padding-left: 240px;
+    padding-right: 200px;
+
+}
+
+.feature-card .row .col-3 h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.feature-card .row .col-3 h4 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.feature-card .row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.feature-card .row .col-3 {
+    background-color: rgba(230, 230, 230, 0.428);
+    margin: 0 10px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.center-menus ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    list-style: none;
+}
+
+.center-menus li {
+    margin: 0 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.center-menus .active {
+    color: rgb(49,140,176);
+}
+
+.center-menus li:hover {
+    color: rgb(49,140,176);
+}
+
+.container .row {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.container .card {
+    text-align: center;
+    font-weight: 600;
+}
+
+.container .card ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.card-image {
+    position: relative;
+}
+.card p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.image {
+    display: block;
+}
+
+.card-hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #b5b5b5af;
+}
+
+.card-image:hover .card-hover {
+    opacity: 1;
+}
+
+.icons {
+    background-color: white;
+    width: 50%;
+    margin: 45% auto;
+
+}
+.card-hover .icons ul{
+    flex-direction: unset !important;
+    background-image: none;
+}
+
+.container .card ul {
+    padding: 7px 40px !important;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.container .card li{
+    cursor: pointer;
+}
+.container .row {
+    padding: 10px 0;
+}
+.container .card .icons ul{
+    padding: 7px 20px !important;
+}
+
+.container .card li:hover,
+.container .card li:hover ~ li {
+    background-image: url(/HTML/Day7/images/deal-of-the-star-full.png);
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.container .card li{
+    transition: transform 0.5;
+}
+.col-2 {
+    width: 100%;
+}
+
+.col-2 h2 {
+    padding-bottom: 0;
+}
+
+.col-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.col-2 p {
+    padding-top: 20px;
+    width: 75%;
+}
+
+.col-2 .hr1 h1 {
+    padding: 0;
+    margin: -26px 0;
+    font-weight: 400;
+}
+
+.col-2 .hr2 h1 {
+    padding: 0;
+    margin-top: -35px;
+    margin-bottom: -26px;
+    margin-left: 120px;
+    font-weight: 600;
+    color: rgb(49,140,176);
+}
+
+.col-2 .row {
+    justify-content: left;
+}
+
+.hr1 hr {
+    color: black;
+    border: 1.5px solid black;
+    width: 14%;
+    left: 0;
+}
+
+
+.box-timing {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: rgb(49,140,176);
+    margin-right: 25px;
+    padding: 12px;
+    width: 10%;
+}
+
+.box-timing h4 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.shop-now-last {
+    padding-top: 20px;
+}
+
+.shop-now-btn {
+    padding: 12px 43px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(49,140,176);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.shop-now-btn:hover {
+    background-color: rgb(0, 95, 98);
+}
+
+.client {
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.428);
+
+}
+
+.client-content {
+    text-align: center;
+    margin: 0 20%;
+    padding: 2% 0;
+}
+
+.from-blog{
+    text-align: center;
+    padding-top:20px;
+}
+.blog {
+    background-color: white !important;
+}
+
+.blog .row .col-5 {
+    width: 27%;
+}
+
+.blog .row .col-5 p {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.blog .row .col-5 h3 {
+    margin: 10px 0;
+    padding: 0;
+    font-weight: 650;
+}
+
+.date {
+    margin-left: 25px;
+}
+
+.blog-hover:hover h3 {
+    color: rgb(49,140,176);
+    cursor: pointer;
+}
+.blog .col-5:hover{
+    transform: scale(1.1);
+}
+.blog .col-5{
+    transition: transform 0.5;
+}
+/* Footer */
+
+.f-container {
+    background-color: rgba(230, 230, 230, 0.428);
+
+
+}
+
+.f-container .row {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.col-5 h3 {
+    font-weight: 500;
+}
+
+.col-5 {
+    width: 25%;
+    padding-right: 50px;
+}
+
+.col-5 .help li {
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.col-5 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.col-5 li {
+    padding-top: 10px;
+}
+
+.col-5 li:hover {
+    color: rgb(49,140,176);
+}
+
+.socials ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socials li {
+    margin-right: 12px;
+}
+
+.newsletter {
+    border: 1px solid rgb(159, 159, 159);
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.p-sub {
+    padding-bottom: 20px;
+}
+
+.newsletter input {
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    padding-left: 7px;
+    width: 52%;
+}
+
+.send-btn {
+    border: none;
+    background-color: rgb(49,140,176);
+    color: white;
+    padding: 5px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.send-btn:hover {
+    background-color: rgb(1, 69, 71);
+}
+
+.last {
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(159, 159, 159, 0.257);
+    padding: 15px 0;
+}
+
+.border {
+    border-left: 2px solid black;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.petcare:hover {
+    color: rgb(1, 69, 71) !important;
+}

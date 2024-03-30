@@ -1,0 +1,27 @@
+.paginationList {
+    margin-top: 20px;
+}
+
+.table {
+    margin: 0 !important;
+}
+
+th,li{
+    cursor: pointer;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Phi_fenomeni.gif/200px-Phi_fenomeni.gif') 50% 50% no-repeat rgb(249, 249, 249);
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #007fff;
+    border-top:2px solid #007fff;
+}

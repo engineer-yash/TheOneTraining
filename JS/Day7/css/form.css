@@ -1,0 +1,83 @@
+body{
+    background-color: aliceblue;
+}
+.title{
+    font-weight: 800;
+}
+input{
+    cursor: text;
+}
+input[type="radio"], input[type="checkbox"]{
+    cursor: pointer;
+}
+.table{
+    margin: 0 !important;
+}
+.form-control{
+    border-left: 0;
+}
+.text-end{
+    color: rgba(53,179,115,255);
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn{
+    background-color: rgba(53,179,115,255);
+    font-weight: 700;
+}
+.form-text{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+    margin:20px auto;
+    text-align: center;
+  }
+.hr-lines::before{
+    content:" ";
+    height: 2px;
+    width: 45%;
+    background: #dee2e6;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.hr-lines::after{
+    content:" ";
+    height: 2px;
+    width: 45%;
+    background: #dee2e6;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.google{
+    background-color: transparent;
+    border-color: #dee2e6;
+    font-weight: 700;
+    text-align: center;
+}
+.width{
+    max-width: 1000px;
+
+}
+
+.container .terms{
+    max-width: 250px;
+}
+.d-star i, .i-star i{
+    font-size: 25px;
+    width: auto;
+    cursor: pointer;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #007fff;
+}

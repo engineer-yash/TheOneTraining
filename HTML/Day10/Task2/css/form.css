@@ -1,0 +1,13 @@
+label{
+    font-weight: 600;
+}
+body{
+    background-color: aliceblue;
+}
+button{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.container{
+    padding: 5% 10px !important;
+}

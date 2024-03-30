@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+background-color: rgb(207, 210, 213);
+}
+.main{
+    margin: auto;
+    padding: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+.tableclass{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    background-color: white;
+    overflow-x: auto;
+}
+.tableclass thead tr th{
+    padding: 20px;
+    background-color: rgb(187, 186, 184);
+    
+}
+.tableclass tbody tr td{
+    padding:20px;
+
+}
+.tableclass tbody tr:nth-child(even){
+    background-color: rgb(187, 186, 184);;
+}
+input[type=checkbox] {
+    accent-color: black;
+  }
+
+.res{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2rem;
+    background: #a4a7f6;
+    align-items: left;
+}
+.status{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2rem;
+    color: white;
+    float: left;
+}
+.circle{
+    padding: 8% 8% 8% 8%;
+    background-color: white;
+    border-radius: 5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

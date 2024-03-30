@@ -1,0 +1,68 @@
+body{
+    background-image: url(/HTML/Day2/images/background.png);
+    background-repeat: no-repeat;
+}
+
+.content1{
+    position: absolute;
+}
+
+.container1{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(240, 234, 227);
+    width: 25%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding:20px;
+}
+img{
+    padding-block: 5px;
+    
+}
+.header1{
+    font-family: 'mukta', sans-serif;
+    color: #add26f;
+}
+p{
+    margin-bottom: 5px;
+}
+.content2{
+    position: absolute;
+    left: 38%;
+    top: 38%;
+}
+
+.headertext2{
+    color:white;
+    font-family: 'mukta', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.round{
+    text-align: center;
+    background-color: rgb(241 239 215);
+    /* padding: 5px; */
+    border-radius: 40px;
+    box-shadow: 5px 5px rgb(54, 53, 53);
+}
+.round p{
+    padding:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'mukta', sans-serif;
+}
+.bold{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width:1400px){
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .p{
+        text-align: center;
+    }
+}
