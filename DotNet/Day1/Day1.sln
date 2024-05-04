@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1.csproj", "{4D092425-33AD-41B0-A487-4AE25B9D72DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{05AD9976-E8F3-49EC-A5F7-BFBC4668FFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{455F04F7-DD63-4F27-BACD-56250DFA3DB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D092425-33AD-41B0-A487-4AE25B9D72DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D092425-33AD-41B0-A487-4AE25B9D72DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D092425-33AD-41B0-A487-4AE25B9D72DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D092425-33AD-41B0-A487-4AE25B9D72DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AD9976-E8F3-49EC-A5F7-BFBC4668FFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AD9976-E8F3-49EC-A5F7-BFBC4668FFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AD9976-E8F3-49EC-A5F7-BFBC4668FFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AD9976-E8F3-49EC-A5F7-BFBC4668FFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455F04F7-DD63-4F27-BACD-56250DFA3DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455F04F7-DD63-4F27-BACD-56250DFA3DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455F04F7-DD63-4F27-BACD-56250DFA3DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455F04F7-DD63-4F27-BACD-56250DFA3DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AEDF8BEF-CC7A-4EF2-B264-FDF56169FC62}
+		SolutionGuid = {D7BB4D3D-673D-4C92-BF0A-7A2B6C45D5DE}
 	EndGlobalSection
 EndGlobal
