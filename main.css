@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     vertical-align: center;
-    background: linear-gradient(0deg, #dee0e2 0%, #748394 100%);
+    background-color: #748394 !important;
   }
   
   .card-container-wrapper {
@@ -166,7 +166,11 @@ body {
     box-shadow: 0 0 15px #ff4b2b;
   }
 
-
+@media only screen and (max-width: 420px) {
+  .animated-text {
+    font: 3em/1.5 "Baloo" !important;
+  }
+}
 
   .animated-text {
     font: 5em/1.5 "Baloo";
